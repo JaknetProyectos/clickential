@@ -1,0 +1,326 @@
+{
+  "header": {
+    "navigation": {
+      "home": "Home",
+      "plans": "Plans",
+      "contact": "Contact"
+    },
+    "cart": "Cart",
+    "menu": "Menu",
+    "logoAlt": "Click Ential logo"
+  },
+  "checkout": {
+    "pageTitle": "Complete your purchase",
+    "steps": {
+      "cart": "Cart",
+      "payment": "Payment"
+    },
+    "back": "Back",
+    "stepOne": "Step 1",
+    "cartTitle": "Cart",
+    "emptyCart": "Your cart is empty.",
+    "couponPlaceholder": "Coupon",
+    "applyCoupon": "Apply",
+    "couponDiscount": "{{discount}}% discount",
+    "removeCoupon": "Remove",
+    "continueToPayment": "Continue to payment",
+    "paymentDetailsTitle": "Payment details",
+    "fields": {
+      "nombre": "First name",
+      "apellido": "Last name",
+      "email": "Email",
+      "telefono": "Phone",
+      "empresa": "Company",
+      "direccion": "Address",
+      "direccion2": "Address 2",
+      "ciudad": "City",
+      "estado": "State",
+      "pais": "Country",
+      "cp": "Postal code",
+      "notes": "Notes",
+      "cardNumber": "Card number",
+      "cardName": "Cardholder name",
+      "cardMonth": "Month",
+      "cardYear": "Year",
+      "cardCvv": "CVV"
+    },
+    "select": "Select",
+    "pay": "Pay",
+    "summaryTitle": "Summary",
+    "quantity": "Quantity: {quantity}",
+    "subtotal": "Subtotal",
+    "couponLine": "Coupon {{code}}",
+    "iva": "VAT (16%)",
+    "total": "Total",
+    "taxesIncluded": "Taxes included",
+    "backToPlans": "← Back to plans",
+    "logoAlt": "logo",
+    "alerts": {
+      "couponInvalid": {
+        "title": "Invalid coupon",
+        "message": "The code does not exist or is no longer available.",
+        "confirmText": "Understood"
+      },
+      "couponApplied": {
+        "title": "Coupon applied",
+        "message": "{{discount}}% discount was applied.",
+        "confirmText": "Continue"
+      },
+      "cartEmpty": {
+        "title": "Cart is empty",
+        "message": "Add products to the cart before continuing.",
+        "confirmText": "Understood"
+      },
+      "missingData": {
+        "title": "Missing information",
+        "message": "Complete all required fields before paying.",
+        "confirmText": "Understood"
+      },
+      "paymentConfirmed": {
+        "title": "Payment confirmed",
+        "message": "The purchase was approved and the confirmation was sent by email.",
+        "confirmText": "Continue"
+      },
+      "paymentFailed": {
+        "title": "Payment could not be completed",
+        "message": "An error occurred while processing the transaction.",
+        "confirmText": "Close"
+      }
+    },
+    "errors": {
+      "paymentNotApproved": "Octano did not approve the payment. Check the details and try again.",
+      "emailNotSent": "The payment was processed, but the confirmation email could not be sent."
+    }
+  },
+  "Home": {
+    "hero": {
+      "badge": "Professional web development",
+      "title": "We help your business grow",
+      "description": "We create modern, fast digital solutions focused on real results for companies looking to grow."
+    },
+    "features": {
+      "badge": "About us",
+      "title": "Professional business planning",
+      "description": "We become your strategic partner to develop modern, scalable platforms focused on results.",
+      "cards": {
+        "experience": {
+          "title": "Experience",
+          "description": "We create intuitive digital experiences focused on customer conversion."
+        },
+        "processes": {
+          "title": "Processes",
+          "description": "We implement agile methodologies to deliver fast, secure, and efficient projects."
+        },
+        "creativity": {
+          "title": "Creativity",
+          "description": "We design modern experiences that represent the essence of your brand."
+        }
+      }
+    },
+    "experience": {
+      "badge": "Results",
+      "title": "Our experience",
+      "description": "With years of experience developing digital solutions, we help companies improve their presence and performance.",
+      "imageAlt": "Team",
+      "stats": {
+        "clientSatisfaction": "Customer satisfaction",
+        "marketing": "Marketing",
+        "administration": "Administration"
+      }
+    },
+    "cta": {
+      "title": "We are ready to take your project to the next level",
+      "description": "From design to development, we build digital platforms focused on results.",
+      "button": "Contact us"
+    }
+  },
+  "ContactPage": {
+    "hero": {
+      "badge": "Contact",
+      "title": "We're ready to help you",
+      "description": "Tell us what you need and we'll respond with a clear and personalized proposal."
+    },
+    "contact": {
+      "email": {
+        "title": "Email"
+      },
+      "office": {
+        "title": "Office",
+        "addressLine1": "Rio Guadiana Street 31, Suite 203, Office 203-C,",
+        "addressLine2": "Renacimiento Neighborhood, Cuauhtémoc Borough,",
+        "addressLine3": "Mexico City, ZIP Code 06500"
+      }
+    },
+    "location": {
+      "title": "Our location",
+      "mapTitle": "Google Maps - Business address"
+    },
+    "form": {
+      "badge": "Form",
+      "title": "Send us a message",
+      "description": "We're ready to help you build a modern and professional digital presence.",
+      "fields": {
+        "name": {
+          "label": "Full name",
+          "placeholder": "Your name"
+        },
+        "email": {
+          "label": "Email address",
+          "placeholder": "your@email.com"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Tell us more about your project"
+        }
+      },
+      "submit": "Send message",
+      "submitting": "Sending..."
+    },
+    "cta": {
+      "badge": "Digital solutions",
+      "title": "If you already have your quote, continue your project here.",
+      "description": "Move forward quickly with the development of your custom platform.",
+      "button": "Pay Custom Plan"
+    },
+    "alerts": {
+      "success": {
+        "title": "Message sent",
+        "message": "Thank you for contacting us. We'll get back to you soon.",
+        "confirmText": "Understood"
+      },
+      "error": {
+        "title": "Unable to send",
+        "message": "There was a problem sending your message.",
+        "confirmText": "Try again"
+      }
+    }
+  },
+  "plans": {
+    "hero": {
+      "badge": "Available Plans",
+      "title": "Choose the ideal plan for your project",
+      "description": "Modern, fast, and scalable development for brands, businesses, and digital products."
+    },
+    "vat": "+ VAT",
+    "addToCart": "Add to cart",
+    "customPlan": {
+      "imageAlt": "Quoteable project",
+      "badge": "Custom Development",
+      "title": "Quoteable",
+      "description": "Whether you need an online store, a business application, or a complex system, we will design and develop the ideal software solution for you.",
+      "featuresTitle": "Plan Features",
+      "features": [
+        "100% tailored development based on your specific requirements.",
+        "Integration of technologies and tools adapted to your business.",
+        "Custom UX/UI design to improve your users' experience.",
+        "Tailored technical support and maintenance.",
+        "Continuous consulting and advisory services to optimize your project."
+      ],
+      "benefitsTitle": "Benefits",
+      "benefits": [
+        "Flexible and scalable solutions that grow with your business.",
+        "Dedicated attention and personalized follow-up throughout the project.",
+        "Innovation and cutting-edge technology applied to your idea."
+      ],
+      "ctaText": "Contact us for an initial consultation and receive a personalized quote.",
+      "contact": "Contact"
+    }
+  },
+  "PlanPersonalizadoPage": {
+    "hero": {
+      "badge": "We know how to build your project",
+      "title": "Custom Plan",
+      "description": "Complete your custom development payment quickly and securely."
+    },
+    "info": {
+      "badge": "Information",
+      "title": "Continue with your project",
+      "description": "Enter your quote details to add the project to the cart and proceed to payment."
+    },
+    "cards": {
+      "customDevelopment": {
+        "title": "Custom development",
+        "description": "Solutions adapted to the specific needs of your company."
+      },
+      "professionalSupport": {
+        "title": "Professional support",
+        "description": "We support you throughout the entire development and implementation process."
+      },
+      "securePayment": {
+        "title": "Secure payment",
+        "description": "Your information and transactions are processed securely."
+      }
+    },
+    "payment": {
+      "badge": "Payment",
+      "title": "Proceed to payment"
+    },
+    "form": {
+      "fullName": {
+        "label": "Full name",
+        "placeholder": "Your full name"
+      },
+      "email": {
+        "label": "Email address",
+        "placeholder": "email@company.com"
+      },
+      "quoteId": {
+        "label": "Quote ID",
+        "placeholder": "E.g. CLICKEN-2026-001"
+      },
+      "amount": {
+        "label": "Amount to pay",
+        "placeholder": "$0.00"
+      },
+      "submit": "Add to cart"
+    },
+    "back": "← Back to plans",
+    "alerts": {
+      "success": {
+        "title": "Plan added",
+        "message": "Your custom plan was added to the cart.",
+        "confirmText": "Continue"
+      },
+      "error": {
+        "title": "Error",
+        "message": "The custom plan could not be added.",
+        "confirmText": "Close"
+      }
+    }
+  },
+  "CartDrawer": {
+    "title": "Cart",
+    "empty": {
+      "title": "Your cart is empty",
+      "description": "Browse our plans and add customized solutions for your business.",
+      "viewPlans": "View Plans"
+    },
+    "subtotal": "Subtotal",
+    "taxIncluded": "VAT included",
+    "checkout": "Proceed to Checkout",
+    "clearCart": "Clear Cart"
+  },
+  "Footer": {
+    "brand": {
+      "subtitle": "Digital development and solutions"
+    },
+    "address": {
+      "line1": "Rio Guadiana Street 31, Suite 203, Office 203-C",
+      "line2": "Renacimiento District, Cuauhtémoc Borough, Mexico City, ZIP Code 06500"
+    },
+    "navigation": {
+      "title": "Navigation",
+      "home": "Home",
+      "plans": "Plans",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Notice",
+      "terms": "Terms and Conditions",
+      "refunds": "Refund Policy"
+    },
+    "paymentMethods": "Payment methods",
+    "copyright": "© 2026 Click Ential. All rights reserved."
+  }
+}
