@@ -3,8 +3,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const LOGO_URL =
-  "https://innovacodigo.com/logo.png";
+const LOGO_URL = "https://innovacodigo.com/logo.png";
 
 export async function POST(req: Request) {
   try {
@@ -28,6 +27,10 @@ export async function POST(req: Request) {
       );
     }
 
+    const safeAsunto = asunto || "Nuevo contacto";
+    const safeMensaje = mensaje || "Sin mensaje";
+    const safeTelefono = telefono || "No proporcionado";
+
     /**
      * EMAIL NEGOCIO
      */
@@ -35,16 +38,14 @@ export async function POST(req: Request) {
       from: "Click Ential <contacto@innovacodigo.com>",
       to: ["contacto@innovacodigo.com"],
       replyTo: email,
-      subject: `Nuevo contacto: ${asunto}`,
-
+      subject: `Nuevo contacto: ${safeAsunto}`,
       html: `
         <div style="
           margin:0;
-          padding:40px 18px;
-          background:#0b0b0c;
+          padding:28px 14px;
+          background:#0f0f10;
           font-family:Inter,Arial,sans-serif;
         ">
-
           <div style="
             max-width:760px;
             margin:0 auto;
@@ -54,44 +55,40 @@ export async function POST(req: Request) {
             <div style="
               position:relative;
               overflow:hidden;
-              border-radius:42px 42px 0 0;
-              background:
-                radial-gradient(circle at top left,#38f2af22 0%,transparent 30%),
-                radial-gradient(circle at bottom right,#7c3ee633 0%,transparent 40%),
-                linear-gradient(135deg,#151516 0%,#1d1b22 100%);
-              padding:52px 46px 120px;
-              border:1px solid rgba(255,255,255,.06);
+              border-radius:34px 34px 0 0;
+              background:#111111;
+              padding:40px 22px 56px;
+              border:1px solid #27272a;
               border-bottom:none;
             ">
-
               <div style="
                 position:absolute;
-                top:-100px;
-                right:-100px;
+                top:-110px;
+                right:-80px;
                 width:240px;
                 height:240px;
                 border-radius:999px;
-                background:#7c3ee622;
+                background:rgba(239,68,68,.12);
               "></div>
 
               <div style="
                 position:absolute;
                 bottom:-120px;
-                left:-120px;
-                width:260px;
-                height:260px;
+                left:-80px;
+                width:240px;
+                height:240px;
                 border-radius:999px;
-                background:#38f2af12;
+                background:rgba(255,255,255,.04);
               "></div>
 
               <img
                 src="${LOGO_URL}"
                 alt="Click Ential"
                 style="
-                  width:80px;
+                  width:82px;
                   height:auto;
                   display:block;
-                  margin-bottom:28px;
+                  margin-bottom:22px;
                   position:relative;
                   z-index:2;
                 "
@@ -99,7 +96,7 @@ export async function POST(req: Request) {
 
               <p style="
                 margin:0 0 14px;
-                color:#38f2af;
+                color:#f87171;
                 font-size:11px;
                 font-weight:800;
                 letter-spacing:.28em;
@@ -112,9 +109,9 @@ export async function POST(req: Request) {
 
               <h1 style="
                 margin:0;
-                max-width:520px;
+                max-width:540px;
                 color:#ffffff;
-                font-size:46px;
+                font-size:38px;
                 line-height:1.08;
                 font-weight:900;
                 position:relative;
@@ -124,9 +121,9 @@ export async function POST(req: Request) {
               </h1>
 
               <p style="
-                margin:22px 0 0;
+                margin:18px 0 0;
                 max-width:560px;
-                color:rgba(255,255,255,.72);
+                color:#d4d4d8;
                 font-size:16px;
                 line-height:1.9;
                 position:relative;
@@ -136,88 +133,59 @@ export async function POST(req: Request) {
               </p>
             </div>
 
-            <!-- FLOAT CARD -->
+            <!-- WRAPPER -->
             <div style="
-              margin:-70px auto 0;
-              width:calc(100% - 48px);
-              position:relative;
-              z-index:10;
-              background:#ffffff;
-              border-radius:34px;
-              border:1px solid #ececec;
+              background:#151516;
+              border-radius:0 0 34px 34px;
+              border:1px solid #27272a;
+              border-top:none;
               overflow:hidden;
-              box-shadow:0 30px 80px rgba(0,0,0,.18);
+              box-shadow:0 30px 80px rgba(0,0,0,.45);
             ">
 
               <!-- CLIENT -->
               <div style="
-                padding:34px;
-                background:
-                  linear-gradient(180deg,#ffffff 0%,#fafafa 100%);
+                padding:28px 22px 18px;
+                background:#151516;
               ">
+                <p style="
+                  margin:0 0 8px;
+                  color:#f87171;
+                  font-size:11px;
+                  font-weight:800;
+                  letter-spacing:.22em;
+                  text-transform:uppercase;
+                ">
+                  Cliente
+                </p>
 
-                <table
-                  width="100%"
-                  cellpadding="0"
-                  cellspacing="0"
-                >
-                  <tr>
-                    <td>
-                      <p style="
-                        margin:0 0 10px;
-                        color:#7c3ee6;
-                        font-size:11px;
-                        font-weight:800;
-                        letter-spacing:.22em;
-                        text-transform:uppercase;
-                      ">
-                        Cliente
-                      </p>
-
-                      <h2 style="
-                        margin:0;
-                        color:#151516;
-                        font-size:34px;
-                        line-height:1.1;
-                        font-weight:900;
-                      ">
-                        ${nombre}
-                      </h2>
-                    </td>
-                  </tr>
-                </table>
-
+                <h2 style="
+                  margin:0;
+                  color:#ffffff;
+                  font-size:30px;
+                  line-height:1.15;
+                  font-weight:900;
+                  word-break:break-word;
+                ">
+                  ${nombre}
+                </h2>
               </div>
 
               <!-- INFO GRID -->
-              <div style="
-                padding:0 34px 34px;
-              ">
-
-                <table
-                  width="100%"
-                  cellpadding="0"
-                  cellspacing="0"
-                >
+              <div style="padding:0 22px 18px;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:separate;border-spacing:0;table-layout:fixed;">
                   <tr>
-
-                    <td
-                      valign="top"
-                      style="
-                        width:50%;
-                        padding-right:10px;
-                      "
-                    >
+                    <td style="width:50%;padding-right:8px;vertical-align:top;">
                       <div style="
-                        border:1px solid #efefef;
-                        border-radius:24px;
-                        padding:24px;
-                        background:#fcfcfc;
-                        height:100%;
+                        border:1px solid #2a2a2a;
+                        border-radius:22px;
+                        padding:20px;
+                        background:#111111;
+                        min-height:100%;
                       ">
                         <p style="
                           margin:0 0 8px;
-                          color:#7c3ee6;
+                          color:#f87171;
                           font-size:11px;
                           font-weight:800;
                           letter-spacing:.16em;
@@ -228,33 +196,28 @@ export async function POST(req: Request) {
 
                         <p style="
                           margin:0;
-                          color:#1f2937;
-                          font-size:16px;
+                          color:#ffffff;
+                          font-size:15px;
                           line-height:1.8;
-                          font-weight:600;
+                          font-weight:700;
+                          word-break:break-word;
                         ">
                           ${email}
                         </p>
                       </div>
                     </td>
 
-                    <td
-                      valign="top"
-                      style="
-                        width:50%;
-                        padding-left:10px;
-                      "
-                    >
+                    <td style="width:50%;padding-left:8px;vertical-align:top;">
                       <div style="
-                        border:1px solid #efefef;
-                        border-radius:24px;
-                        padding:24px;
-                        background:#fcfcfc;
-                        height:100%;
+                        border:1px solid #2a2a2a;
+                        border-radius:22px;
+                        padding:20px;
+                        background:#111111;
+                        min-height:100%;
                       ">
                         <p style="
                           margin:0 0 8px;
-                          color:#38f2af;
+                          color:#f87171;
                           font-size:11px;
                           font-weight:800;
                           letter-spacing:.16em;
@@ -265,42 +228,37 @@ export async function POST(req: Request) {
 
                         <p style="
                           margin:0;
-                          color:#1f2937;
-                          font-size:16px;
+                          color:#ffffff;
+                          font-size:15px;
                           line-height:1.8;
-                          font-weight:600;
+                          font-weight:700;
+                          word-break:break-word;
                         ">
-                          ${telefono || "No proporcionado"}
+                          ${safeTelefono}
                         </p>
                       </div>
                     </td>
-
                   </tr>
                 </table>
-
               </div>
 
               <!-- MESSAGE -->
-              <div style="
-                padding:0 34px 34px;
-              ">
-
+              <div style="padding:0 22px 18px;">
                 <div style="
                   overflow:hidden;
-                  border-radius:30px;
-                  border:1px solid #ededed;
-                  background:white;
+                  border-radius:26px;
+                  border:1px solid #2a2a2a;
+                  background:#111111;
                 ">
-
                   <div style="
-                    padding:18px 24px;
-                    background:#151516;
-                    border-bottom:1px solid #232326;
+                    padding:16px 20px;
+                    background:#111111;
+                    border-bottom:1px solid #2a2a2a;
                   ">
                     <p style="
                       margin:0;
-                      color:#ffffff;
-                      font-size:12px;
+                      color:#f87171;
+                      font-size:11px;
                       font-weight:800;
                       letter-spacing:.18em;
                       text-transform:uppercase;
@@ -309,13 +267,10 @@ export async function POST(req: Request) {
                     </p>
                   </div>
 
-                  <div style="
-                    padding:30px 26px;
-                  ">
-
+                  <div style="padding:22px 20px;">
                     <p style="
-                      margin:0 0 12px;
-                      color:#7c3ee6;
+                      margin:0 0 10px;
+                      color:#f87171;
                       font-size:11px;
                       font-weight:800;
                       letter-spacing:.18em;
@@ -325,50 +280,47 @@ export async function POST(req: Request) {
                     </p>
 
                     <h3 style="
-                      margin:0 0 24px;
-                      color:#151516;
-                      font-size:28px;
+                      margin:0 0 18px;
+                      color:#ffffff;
+                      font-size:24px;
                       line-height:1.3;
                       font-weight:900;
+                      word-break:break-word;
                     ">
-                      ${asunto}
+                      ${safeAsunto}
                     </h3>
 
                     <p style="
                       margin:0;
-                      color:#52525b;
-                      font-size:16px;
-                      line-height:2;
+                      color:#d4d4d8;
+                      font-size:15px;
+                      line-height:1.95;
                       white-space:pre-line;
+                      word-break:break-word;
                     ">
-                      ${mensaje}
+                      ${safeMensaje}
                     </p>
                   </div>
-
                 </div>
-
               </div>
 
               <!-- FOOTER -->
               <div style="
-                padding:28px 34px;
-                border-top:1px solid #efefef;
-                background:#fafafa;
+                padding:22px;
+                border-top:1px solid #2a2a2a;
+                background:#111111;
+                text-align:center;
               ">
-
                 <p style="
                   margin:0;
-                  color:#71717a;
+                  color:#9ca3af;
                   font-size:13px;
                   line-height:1.8;
                 ">
                   Este mensaje fue generado automáticamente desde el formulario de contacto de Click Ential.
                 </p>
-
               </div>
-
             </div>
-
           </div>
         </div>
       `,
@@ -381,15 +333,13 @@ export async function POST(req: Request) {
       from: "Click Ential <contacto@innovacodigo.com>",
       to: [email],
       subject: "Recibimos tu mensaje | Click Ential",
-
       html: `
         <div style="
           margin:0;
-          padding:40px 18px;
-          background:#0b0b0c;
+          padding:28px 14px;
+          background:#0f0f10;
           font-family:Inter,Arial,sans-serif;
         ">
-
           <div style="
             max-width:760px;
             margin:0 auto;
@@ -399,25 +349,21 @@ export async function POST(req: Request) {
             <div style="
               position:relative;
               overflow:hidden;
-              border-radius:42px 42px 0 0;
-              background:
-                radial-gradient(circle at top left,#7c3ee655 0%,transparent 34%),
-                radial-gradient(circle at bottom right,#38f2af22 0%,transparent 38%),
-                linear-gradient(135deg,#151516 0%,#1d1b22 100%);
-              padding:60px 46px 140px;
-              border:1px solid rgba(255,255,255,.06);
+              border-radius:34px 34px 0 0;
+              background:#111111;
+              padding:44px 22px 78px;
+              border:1px solid #27272a;
               border-bottom:none;
               text-align:center;
             ">
-
               <div style="
                 position:absolute;
                 top:-120px;
-                left:-120px;
+                left:-110px;
                 width:260px;
                 height:260px;
                 border-radius:999px;
-                background:#7c3ee622;
+                background:rgba(239,68,68,.10);
               "></div>
 
               <img
@@ -427,15 +373,15 @@ export async function POST(req: Request) {
                   width:90px;
                   height:auto;
                   display:block;
-                  margin:0 auto 28px;
+                  margin:0 auto 22px;
                   position:relative;
                   z-index:2;
                 "
               />
 
               <p style="
-                margin:0 0 16px;
-                color:#38f2af;
+                margin:0 0 14px;
+                color:#f87171;
                 font-size:11px;
                 font-weight:800;
                 letter-spacing:.28em;
@@ -450,7 +396,7 @@ export async function POST(req: Request) {
                 margin:0 auto;
                 max-width:560px;
                 color:#ffffff;
-                font-size:50px;
+                font-size:40px;
                 line-height:1.08;
                 font-weight:900;
                 position:relative;
@@ -460,10 +406,10 @@ export async function POST(req: Request) {
               </h1>
 
               <p style="
-                margin:22px auto 0;
+                margin:18px auto 0;
                 max-width:560px;
-                color:rgba(255,255,255,.74);
-                font-size:17px;
+                color:#d4d4d8;
+                font-size:16px;
                 line-height:1.9;
                 position:relative;
                 z-index:2;
@@ -472,26 +418,23 @@ export async function POST(req: Request) {
               </p>
             </div>
 
-            <!-- CONTENT -->
+            <!-- MAIN CARD -->
             <div style="
-              margin:-80px auto 0;
-              width:calc(100% - 48px);
+              margin:-34px auto 0;
+              width:calc(100% - 24px);
               position:relative;
               z-index:10;
-              background:#ffffff;
+              background:#151516;
               border-radius:34px;
-              border:1px solid #ececec;
+              border:1px solid #27272a;
               overflow:hidden;
-              box-shadow:0 30px 80px rgba(0,0,0,.18);
+              box-shadow:0 30px 80px rgba(0,0,0,.45);
             ">
 
-              <div style="
-                padding:40px 34px;
-              ">
-
+              <div style="padding:28px 22px 0;">
                 <p style="
-                  margin:0 0 12px;
-                  color:#7c3ee6;
+                  margin:0 0 10px;
+                  color:#f87171;
                   font-size:11px;
                   font-weight:800;
                   letter-spacing:.22em;
@@ -502,46 +445,42 @@ export async function POST(req: Request) {
 
                 <h2 style="
                   margin:0;
-                  color:#151516;
-                  font-size:36px;
-                  line-height:1.2;
+                  color:#ffffff;
+                  font-size:32px;
+                  line-height:1.15;
                   font-weight:900;
                 ">
                   Estamos listos para conocer tu proyecto
                 </h2>
 
                 <p style="
-                  margin:22px 0 0;
-                  color:#52525b;
-                  font-size:16px;
-                  line-height:2;
+                  margin:16px 0 0;
+                  color:#d4d4d8;
+                  font-size:15px;
+                  line-height:1.95;
                 ">
                   Gracias por confiar en Click Ential.
                   Nuestro equipo revisará tu mensaje para ayudarte con una propuesta clara, moderna y enfocada en resultados.
                 </p>
-
               </div>
 
               <!-- SUMMARY -->
-              <div style="
-                padding:0 34px 34px;
-              ">
-
+              <div style="padding:22px 22px 18px;">
                 <div style="
-                  border-radius:30px;
+                  border-radius:26px;
                   overflow:hidden;
-                  border:1px solid #ededed;
+                  border:1px solid #2a2a2a;
+                  background:#111111;
                 ">
-
                   <div style="
-                    padding:18px 24px;
-                    background:#151516;
-                    border-bottom:1px solid #232326;
+                    padding:16px 20px;
+                    border-bottom:1px solid #2a2a2a;
+                    background:#111111;
                   ">
                     <p style="
                       margin:0;
                       color:#ffffff;
-                      font-size:12px;
+                      font-size:11px;
                       font-weight:800;
                       letter-spacing:.18em;
                       text-transform:uppercase;
@@ -550,14 +489,10 @@ export async function POST(req: Request) {
                     </p>
                   </div>
 
-                  <div style="
-                    padding:30px 26px;
-                    background:#fcfcfc;
-                  ">
-
+                  <div style="padding:22px 20px;">
                     <p style="
                       margin:0 0 10px;
-                      color:#38f2af;
+                      color:#f87171;
                       font-size:11px;
                       font-weight:800;
                       letter-spacing:.18em;
@@ -567,23 +502,23 @@ export async function POST(req: Request) {
                     </p>
 
                     <h3 style="
-                      margin:0 0 24px;
-                      color:#151516;
-                      font-size:28px;
+                      margin:0 0 18px;
+                      color:#ffffff;
+                      font-size:24px;
                       line-height:1.3;
                       font-weight:900;
+                      word-break:break-word;
                     ">
-                      ${asunto}
+                      ${safeAsunto}
                     </h3>
 
                     <div style="
-                      border-top:1px solid #ececec;
-                      padding-top:24px;
+                      border-top:1px solid #2a2a2a;
+                      padding-top:18px;
                     ">
-
                       <p style="
-                        margin:0 0 12px;
-                        color:#7c3ee6;
+                        margin:0 0 10px;
+                        color:#f87171;
                         font-size:11px;
                         font-weight:800;
                         letter-spacing:.18em;
@@ -594,94 +529,86 @@ export async function POST(req: Request) {
 
                       <p style="
                         margin:0;
-                        color:#52525b;
+                        color:#d4d4d8;
                         font-size:15px;
-                        line-height:2;
+                        line-height:1.95;
                         white-space:pre-line;
+                        word-break:break-word;
                       ">
-                        ${mensaje}
+                        ${safeMensaje}
                       </p>
-
                     </div>
-
                   </div>
-
                 </div>
-
               </div>
 
-              <!-- CTA BLOCK -->
-              <div style="
-                margin:0 34px 34px;
-                border-radius:32px;
-                overflow:hidden;
-                background:
-                  radial-gradient(circle at top right,#38f2af22 0%,transparent 30%),
-                  linear-gradient(135deg,#151516 0%,#1d1b22 100%);
-                padding:34px;
-              ">
-
-                <p style="
-                  margin:0 0 10px;
-                  color:#38f2af;
-                  font-size:11px;
-                  font-weight:800;
-                  letter-spacing:.22em;
-                  text-transform:uppercase;
+              <!-- CTA -->
+              <div style="padding:0 22px 22px;">
+                <div style="
+                  border-radius:26px;
+                  border:1px solid #2a2a2a;
+                  background:#111111;
+                  padding:22px 20px;
                 ">
-                  Click Ential
-                </p>
+                  <p style="
+                    margin:0 0 10px;
+                    color:#f87171;
+                    font-size:11px;
+                    font-weight:800;
+                    letter-spacing:.22em;
+                    text-transform:uppercase;
+                  ">
+                    Click Ential
+                  </p>
 
-                <h3 style="
-                  margin:0 0 16px;
-                  color:#ffffff;
-                  font-size:30px;
-                  line-height:1.2;
-                  font-weight:900;
-                ">
-                  Tecnología diseñada para crecer contigo
-                </h3>
+                  <h3 style="
+                    margin:0 0 12px;
+                    color:#ffffff;
+                    font-size:24px;
+                    line-height:1.25;
+                    font-weight:900;
+                  ">
+                    Tecnología diseñada para crecer contigo
+                  </h3>
 
-                <p style="
-                  margin:0;
-                  color:rgba(255,255,255,.72);
-                  font-size:15px;
-                  line-height:2;
-                ">
-                  Creamos plataformas, automatizaciones y soluciones digitales modernas enfocadas en escalabilidad, experiencia de usuario y crecimiento empresarial.
-                </p>
-
+                  <p style="
+                    margin:0;
+                    color:#d4d4d8;
+                    font-size:14px;
+                    line-height:1.95;
+                  ">
+                    Creamos plataformas, automatizaciones y soluciones digitales modernas enfocadas en escalabilidad, experiencia de usuario y crecimiento empresarial.
+                  </p>
+                </div>
               </div>
 
               <!-- FOOTER -->
               <div style="
-                padding:26px 34px;
-                border-top:1px solid #efefef;
-                background:#fafafa;
+                padding:22px;
+                border-top:1px solid #2a2a2a;
+                background:#111111;
                 text-align:center;
               ">
-
                 <p style="
                   margin:0 0 8px;
-                  color:#151516;
+                  color:#ffffff;
                   font-size:14px;
-                  font-weight:700;
+                  font-weight:800;
+                  letter-spacing:.08em;
                 ">
                   Click Ential
                 </p>
 
                 <p style="
                   margin:0;
-                  color:#71717a;
+                  color:#9ca3af;
                   font-size:12px;
+                  line-height:1.8;
                 ">
                   contacto@innovacodigo.com
                 </p>
-
               </div>
-
             </div>
-
           </div>
         </div>
       `,
@@ -690,7 +617,6 @@ export async function POST(req: Request) {
     return NextResponse.json({
       success: true,
     });
-
   } catch (error) {
     console.error(error);
 
