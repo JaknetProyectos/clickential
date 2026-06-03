@@ -1,326 +1,326 @@
 {
   "header": {
     "navigation": {
-      "home": "Inicio",
-      "plans": "Planes",
-      "contact": "Contacto"
+      "home": "Principal",
+      "plans": "Servicios",
+      "contact": "Escríbenos"
     },
-    "cart": "Carrito",
-    "menu": "Menú",
-    "logoAlt": "Logo de Click Ential"
+    "cart": "Cesta",
+    "menu": "Opciones",
+    "logoAlt": "Isotipo de Click Ential"
   },
   "checkout": {
-    "pageTitle": "Finaliza tu compra",
+    "pageTitle": "Completa tu orden",
     "steps": {
-      "cart": "Carrito",
-      "payment": "Pago"
+      "cart": "Tu Pedido",
+      "payment": "Facturación"
     },
-    "back": "Volver",
-    "stepOne": "Paso 1",
-    "cartTitle": "Carrito",
-    "emptyCart": "Tu carrito está vacío.",
-    "couponPlaceholder": "Cupón",
-    "applyCoupon": "Aplicar",
-    "couponDiscount": "Descuento del {{discount}}%",
-    "removeCoupon": "Quitar",
-    "continueToPayment": "Continuar al pago",
-    "paymentDetailsTitle": "Datos de pago",
+    "back": "Regresar",
+    "stepOne": "Fase 1",
+    "cartTitle": "Lista de compra",
+    "emptyCart": "No tienes artículos en la cesta.",
+    "couponPlaceholder": "Código promocional",
+    "applyCoupon": "Validar",
+    "couponDiscount": "Bonificación del {{discount}}%",
+    "removeCoupon": "Eliminar",
+    "continueToPayment": "Proceder a la caja",
+    "paymentDetailsTitle": "Información financiera",
     "fields": {
-      "nombre": "Nombre",
-      "apellido": "Apellido",
-      "email": "Correo",
-      "telefono": "Teléfono",
-      "empresa": "Empresa",
-      "direccion": "Dirección",
-      "direccion2": "Dirección 2",
-      "ciudad": "Ciudad",
-      "estado": "Estado",
-      "pais": "País",
-      "cp": "Código postal",
-      "notes": "Notas",
-      "cardNumber": "Número de tarjeta",
-      "cardName": "Nombre del titular",
-      "cardMonth": "Mes",
-      "cardYear": "Año",
-      "cardCvv": "CVV"
+      "nombre": "Nombre(s)",
+      "apellido": "Apellidos",
+      "email": "Correo electrónico",
+      "telefono": "Número telefónico",
+      "empresa": "Compañía / Negocio",
+      "direccion": "Domicilio línea 1",
+      "direccion2": "Domicilio línea 2",
+      "ciudad": "Localidad / Municipio",
+      "estado": "Provincia / Estado",
+      "pais": "Territorio / País",
+      "cp": "Zona postal",
+      "notes": "Comentarios adicionales",
+      "cardNumber": "Dígitos de la tarjeta",
+      "cardName": "Titular registrado",
+      "cardMonth": "Mes venc.",
+      "cardYear": "Año venc.",
+      "cardCvv": "Código de seguridad"
     },
-    "select": "Selecciona",
-    "pay": "Pagar",
-    "summaryTitle": "Resumen",
-    "quantity": "Cantidad: {quantity}",
-    "subtotal": "Subtotal",
-    "couponLine": "Cupón {{code}}",
-    "iva": "IVA (16%)",
-    "total": "Total",
-    "taxesIncluded": "Impuestos incluidos",
-    "backToPlans": "← Volver a planes",
-    "logoAlt": "logo",
+    "select": "Elegir",
+    "pay": "Liquidar",
+    "summaryTitle": "Desglose",
+    "quantity": "Unidades: {quantity}",
+    "subtotal": "Monto base",
+    "couponLine": "Descuento {{code}}",
+    "iva": "Impuesto IVA (16%)",
+    "total": "Importe total",
+    "taxesIncluded": "Gravámenes contemplados",
+    "backToPlans": "← Regresar al catálogo",
+    "logoAlt": "emblema",
     "alerts": {
       "couponInvalid": {
-        "title": "Cupón inválido",
-        "message": "El código no existe o ya no está disponible.",
-        "confirmText": "Entendido"
+        "title": "Código no válido",
+        "message": "La clave ingresada no existe o ya expiró.",
+        "confirmText": "Aceptar"
       },
       "couponApplied": {
-        "title": "Cupón aplicado",
-        "message": "Se aplicó {{discount}}% de descuento.",
-        "confirmText": "Continuar"
+        "title": "Descuento activado",
+        "message": "Se ha efectuado la rebaja del {{discount}}%.",
+        "confirmText": "Avanzar"
       },
       "cartEmpty": {
-        "title": "Carrito vacío",
-        "message": "Agrega productos al carrito antes de continuar.",
+        "title": "Cesta sin productos",
+        "message": "Debes añadir soluciones al carrito antes de ir a la caja.",
         "confirmText": "Entendido"
       },
       "missingData": {
-        "title": "Faltan datos",
-        "message": "Completa todos los campos obligatorios antes de pagar.",
-        "confirmText": "Entendido"
+        "title": "Campos incompletos",
+        "message": "Por favor, llena los recuadros obligatorios antes de abonar.",
+        "confirmText": "Ok"
       },
       "paymentConfirmed": {
-        "title": "Pago confirmado",
-        "message": "La compra fue aprobada y la confirmación se envió por correo.",
+        "title": "Transacción exitosa",
+        "message": "Tu adquisición fue aprobada y los detalles se enviaron a tu bandeja.",
         "confirmText": "Continuar"
       },
       "paymentFailed": {
-        "title": "No se pudo completar el pago",
-        "message": "Ocurrió un error procesando la transacción.",
-        "confirmText": "Cerrar"
+        "title": "Error en la transacción",
+        "message": "Surgió un contratiempo al procesar el cargo financiero.",
+        "confirmText": "Ocultar"
       }
     },
     "errors": {
-      "paymentNotApproved": "Octano no aprobó el pago. Revisa los datos e inténtalo de nuevo.",
-      "emailNotSent": "El pago se procesó, pero no se pudo enviar el correo de confirmación."
+      "paymentNotApproved": "La plataforma Octano denegó el cobro. Corrobora tus datos y vuelve a intentar.",
+      "emailNotSent": "La transacción se realizó con éxito, pero falló el envío de la notificación digital."
     }
   },
   "Home": {
     "hero": {
-      "badge": "Desarrollo web profesional",
-      "title": "Ayudamos a que su negocio crezca",
-      "description": "Creamos soluciones digitales modernas, rápidas y enfocadas en resultados reales para empresas que quieren crecer."
+      "badge": "Soluciones web de alta gama",
+      "title": "Impulsamos la expansión de tu empresa",
+      "description": "Desarrollamos herramientas web innovadoras, veloces y orientadas a dar dividendos reales a marcas con visión de futuro."
     },
     "features": {
-      "badge": "Nosotros",
-      "title": "Planificación empresarial profesional",
-      "description": "Nos convertimos en su socio estratégico para desarrollar plataformas modernas, escalables y enfocadas en resultados.",
+      "badge": "Quiénes somos",
+      "title": "Estrategia corporativa especializada",
+      "description": "Nos convertimos en tus aliados tecnológicos para materializar plataformas vanguardistas, adaptables y con enfoque comercial.",
       "cards": {
         "experience": {
-          "title": "Experiencia",
-          "description": "Creamos experiencias digitales intuitivas y enfocadas en la conversión de clientes."
+          "title": "Trayectoria",
+          "description": "Ideamos entornos interactivos ágiles que favorecen la captación y retención de usuarios."
         },
         "processes": {
-          "title": "Procesos",
-          "description": "Implementamos metodologías ágiles para entregar proyectos rápidos, seguros y eficientes."
+          "title": "Metodología",
+          "description": "Empleamos dinámicas de trabajo eficientes para entregar desarrollos seguros, ágiles y óptimos."
         },
         "creativity": {
-          "title": "Creatividad",
-          "description": "Diseñamos experiencias modernas que representan la esencia de su marca."
+          "title": "Disrupción",
+          "description": "Damos forma a conceptos visuales únicos que proyectan fielmente el espíritu de tu negocio."
         }
       }
     },
     "experience": {
-      "badge": "Resultados",
-      "title": "Nuestra experiencia",
-      "description": "Con años de experiencia desarrollando soluciones digitales, ayudamos a empresas a mejorar su presencia y rendimiento.",
-      "imageAlt": "Equipo",
+      "badge": "Garantías",
+      "title": "Nuestra trayectoria",
+      "description": "Tras años de diseñar infraestructuras en internet, guiamos a los negocios a potenciar su posicionamiento y conversiones.",
+      "imageAlt": "Especialistas",
       "stats": {
-        "clientSatisfaction": "Satisfacción de clientes",
-        "marketing": "Marketing",
-        "administration": "Administración"
+        "clientSatisfaction": "Nivel de conformidad",
+        "marketing": "Comercialización",
+        "administration": "Gestión operativa"
       }
     },
     "cta": {
-      "title": "Estamos listos para llevar su proyecto al siguiente nivel",
-      "description": "Desde el diseño hasta el desarrollo, construimos plataformas digitales enfocadas en resultados.",
-      "button": "Contáctenos"
+      "title": "Estamos listos para transformar tu propuesta digital",
+      "description": "Abarcando desde el prototipado hasta la ingeniería final, edificamos portales web enfocados en resultados.",
+      "button": "Comunícate hoy"
     }
   },
   "ContactPage": {
     "hero": {
-      "badge": "Contacto",
-      "title": "Estamos listos para ayudarte",
-      "description": "Cuéntanos qué necesitas y te responderemos con una propuesta clara y personalizada."
+      "badge": "Escríbenos",
+      "title": "Estamos aquí para asesorarte",
+      "description": "Explícanos tu idea y te estructuraremos una cotización transparente y a la medida."
     },
     "contact": {
       "email": {
-        "title": "Correo"
+        "title": "Bandeja digital"
       },
       "office": {
-        "title": "Oficina",
-        "addressLine1": "Calle Rio Guadiana 31, Int. 203, Ofi. 203-C,",
-        "addressLine2": "Col. Renacimiento, Alcaldía Cuauhtémoc,",
-        "addressLine3": "Ciudad de México, C.P. 06500"
+        "title": "Instalaciones",
+        "addressLine1": "Calle Río Guadiana Número 31, Int. 203, Oficina 203-C,",
+        "addressLine2": "Colonia Renacimiento, Demarcación Cuauhtémoc,",
+        "addressLine3": "Ciudad de México, Código Postal 06500"
       }
     },
     "location": {
-      "title": "Nuestra ubicación",
-      "mapTitle": "Google Maps - Dirección del negocio"
+      "title": "Dónde encontrarnos",
+      "mapTitle": "Mapa interactivo - Ubicación de las oficinas"
     },
     "form": {
-      "badge": "Formulario",
-      "title": "Envíanos un mensaje",
-      "description": "Estamos preparados para ayudarte a construir una presencia digital moderna y profesional.",
+      "badge": "Contacto directo",
+      "title": "Mándanos un mensaje",
+      "description": "Contamos con el equipo ideal para estructurar tu nueva identidad tecnológica profesional.",
       "fields": {
         "name": {
-          "label": "Nombre completo",
-          "placeholder": "Tu nombre"
+          "label": "Nombre y apellidos",
+          "placeholder": "Escribe tu nombre"
         },
         "email": {
-          "label": "Correo electrónico",
-          "placeholder": "tu@email.com"
+          "label": "Dirección de correo",
+          "placeholder": "ejemplo@correo.com"
         },
         "message": {
-          "label": "Mensaje",
-          "placeholder": "Cuéntanos más detalles de tu proyecto"
+          "label": "Detalles adicionales",
+          "placeholder": "Platícanos los requerimientos clave de tu propuesta"
         }
       },
-      "submit": "Enviar mensaje",
-      "submitting": "Enviando..."
+      "submit": "Enviar datos",
+      "submitting": "Procesando envío..."
     },
     "cta": {
-      "badge": "Soluciones digitales",
-      "title": "Si ya tienes tu cotización, continúa con tu proyecto aquí.",
-      "description": "Avanza rápidamente con el desarrollo de tu plataforma personalizada.",
-      "button": "Pagar Plan Cotizable"
+      "badge": "Herramientas virtuales",
+      "title": "Si cuentas con un presupuesto previo, inicia tu desarrollo aquí.",
+      "description": "Agiliza el inicio del diseño de tu entorno virtual exclusivo.",
+      "button": "Adquirir Propuesta Cotizada"
     },
     "alerts": {
       "success": {
-        "title": "Mensaje enviado",
-        "message": "Gracias por escribirnos. Nos pondremos en contacto contigo pronto.",
-        "confirmText": "Entendido"
+        "title": "Formulario recibido",
+        "message": "Valoramos tu contacto. Un consultor se comunicará contigo a la brevedad.",
+        "confirmText": "Cerrar"
       },
       "error": {
-        "title": "No se pudo enviar",
-        "message": "Ocurrió un problema al enviar tu mensaje.",
-        "confirmText": "Reintentar"
+        "title": "Fallo en el envío",
+        "message": "Se presentó un inconveniente al tratar de transmitir tu mensaje.",
+        "confirmText": "Intentar de nuevo"
       }
     }
   },
   "plans": {
     "hero": {
-      "badge": "Planes disponibles",
-      "title": "Elige el plan ideal para tu proyecto",
-      "description": "Desarrollo moderno, rápido y escalable para marcas, negocios y productos digitales."
+      "badge": "Suscripciones de software",
+      "title": "Selecciona la alternativa ideal para tu negocio",
+      "description": "Ingeniería moderna, veloz y modular pensada para marcas comerciales y productos virtuales."
     },
-    "vat": "+ IVA",
-    "addToCart": "Agregar al carrito",
+    "vat": "más impuestos",
+    "addToCart": "Añadir a la cesta",
     "customPlan": {
-      "imageAlt": "Proyecto cotizable",
-      "badge": "Desarrollo personalizado",
-      "title": "Cotizable",
-      "description": "Ya sea que necesite una tienda en línea, una aplicación empresarial, o un sistema complejo, diseñaremos y desarrollaremos el software ideal para usted.",
-      "featuresTitle": "Características del plan",
+      "imageAlt": "Iniciativa a presupuestar",
+      "badge": "Ingeniería a medida",
+      "title": "Bajo Diseño",
+      "description": "Ya sea que tu negocio requiera un portal de comercio electrónico, una herramienta interna para la empresa, o un software corporativo avanzado, confeccionaremos el sistema idóneo para ti.",
+      "featuresTitle": "Puntos clave del servicio",
       "features": [
-        "Desarrollo 100% ajustado a tus requerimientos específicos.",
-        "Integración de tecnologías y herramientas que se adapten a su negocio.",
-        "Diseño UX/UI personalizado para mejorar la experiencia de sus usuarios.",
-        "Soporte técnico y mantenimiento a medida.",
-        "Consultoría y asesoramiento continuo para optimizar su proyecto."
+        "Ingeniería de software alineada al 100% con tus necesidades específicas.",
+        "Acoplamiento de arquitecturas informáticas acordes con la dinámica de tu negocio.",
+        "Estructura UX/UI exclusiva destinada a agilizar el recorrido de los usuarios.",
+        "Acompañamiento tecnológico y monitoreo continuo.",
+        "Consultoría integral constante para maximizar el rendimiento del producto."
       ],
-      "benefitsTitle": "Beneficios",
+      "benefitsTitle": "Ventajas competitivas",
       "benefits": [
-        "Soluciones flexibles y escalables que crecen con su negocio.",
-        "Atención dedicada y seguimiento personalizado durante todo el proyecto.",
-        "Innovación y tecnología de punta aplicada a tu idea."
+        "Sistemas flexibles y modulares que evolucionan a la par de tu organización.",
+        "Supervisión cercana y soporte adaptado en cada etapa del desarrollo.",
+        "Aplicación de metodologías innovadoras y tecnología de punta en tu propuesta."
       ],
-      "ctaText": "Contáctanos para una consulta inicial y obtén una cotización personalizada.",
-      "contact": "Contactar"
+      "ctaText": "Solicita una entrevista de diagnóstico técnico y recibe una cotización estructurada.",
+      "contact": "Contactar asesores"
     }
   },
   "PlanPersonalizadoPage": {
     "hero": {
-      "badge": "Nosotros sabemos desarrollar tu proyecto",
-      "title": "Plan Personalizado",
-      "description": "Finaliza el pago de tu desarrollo personalizado de forma rápida y segura."
+      "badge": "Contamos con el talento para dar vida a tu idea",
+      "title": "Propuesta Exclusiva",
+      "description": "Liquida el pago de tu desarrollo personalizado bajo un entorno seguro y ágil."
     },
     "info": {
-      "badge": "Información",
-      "title": "Continúa con tu proyecto",
-      "description": "Ingresa los datos de tu cotización para agregar el proyecto al carrito y proceder al pago."
+      "badge": "Detalles del servicio",
+      "title": "Continúa con las fases del proyecto",
+      "description": "Coloca las claves de tu cotización para adjuntar la propuesta al carrito y proceder con la facturación."
     },
     "cards": {
       "customDevelopment": {
-        "title": "Desarrollo personalizado",
-        "description": "Soluciones adaptadas a las necesidades específicas de tu empresa."
+        "title": "Software a la medida",
+        "description": "Plataformas diseñadas exclusivamente para satisfacer las demandas operativas de tu marca."
       },
       "professionalSupport": {
-        "title": "Soporte profesional",
-        "description": "Te acompañamos durante todo el proceso de desarrollo e implementación."
+        "title": "Asistencia técnica experta",
+        "description": "Te brindamos guía técnica a lo largo de todo el ciclo de diseño y despliegue."
       },
       "securePayment": {
-        "title": "Pago seguro",
-        "description": "Tu información y transacciones se procesan de manera segura."
+        "title": "Cobros encriptados",
+        "description": "Tus datos financieros y bancarios se administran mediante protocolos de alta seguridad."
       }
     },
     "payment": {
-      "badge": "Pago",
-      "title": "Proceder al pago"
+      "badge": "Caja",
+      "title": "Pasar al cobro"
     },
     "form": {
       "fullName": {
-        "label": "Nombre completo",
-        "placeholder": "Tu nombre completo"
+        "label": "Nombre y apellido del cliente",
+        "placeholder": "Ingresa tu nombre completo"
       },
       "email": {
-        "label": "Correo electrónico",
-        "placeholder": "correo@empresa.com"
+        "label": "Correo corporativo",
+        "placeholder": "usuario@tuempresa.com"
       },
       "quoteId": {
-        "label": "ID de cotización",
+        "label": "Folio del presupuesto",
         "placeholder": "Ej. CLICKEN-2026-001"
       },
       "amount": {
-        "label": "Monto a pagar",
-        "placeholder": "$0.00"
+        "label": "Cantidad total a cubrir",
+        "placeholder": "$0.00 MXN"
       },
-      "submit": "Agregar al carrito"
+      "submit": "Adjuntar a la cesta"
     },
-    "back": "← Volver a planes",
+    "back": "← Volver al listado de planes",
     "alerts": {
       "success": {
-        "title": "Plan agregado",
-        "message": "Tu plan personalizado fue agregado al carrito.",
-        "confirmText": "Continuar"
+        "title": "Elemento registrado",
+        "message": "Tu presupuesto personalizado ha sido incorporado a la cesta de compra.",
+        "confirmText": "Proceder"
       },
       "error": {
-        "title": "Error",
-        "message": "No se pudo agregar el plan personalizado.",
-        "confirmText": "Cerrar"
+        "title": "Ocurrió un fallo",
+        "message": "No pudimos cargar la propuesta personalizada en el sistema.",
+        "confirmText": "Cerrar ventana"
       }
     }
   },
   "CartDrawer": {
-    "title": "Carrito",
+    "title": "Cesta actual",
     "empty": {
-      "title": "Tu carrito está vacío",
-      "description": "Explora nuestros planes y agrega soluciones personalizadas para tu negocio.",
-      "viewPlans": "Ver Planes"
+      "title": "No hay elementos en tu cesta",
+      "description": "Revisa nuestras soluciones y selecciona la alternativa tecnológica ideal para tu marca.",
+      "viewPlans": "Ver Catálogo"
     },
-    "subtotal": "Subtotal",
-    "taxIncluded": "IVA incluido",
-    "checkout": "Proceder al Pago",
-    "clearCart": "Vaciar Carrito"
+    "subtotal": "Suma parcial",
+    "taxIncluded": "Impuestos contemplados",
+    "checkout": "Ir a la caja",
+    "clearCart": "Vaciar la cesta"
   },
   "Footer": {
     "brand": {
-      "subtitle": "Desarrollo y soluciones digitales"
+      "subtitle": "Ingeniería y consultoría informática"
     },
     "address": {
-      "line1": "Calle Rio Guadiana 31, Int. 203, Ofi. 203-C",
-      "line2": "Col. Renacimiento, Alcaldía Cuauhtémoc, Ciudad de México, C.P. 06500"
+      "line1": "Calle Río Guadiana Número 31, Interior 203, Ofi. 203-C",
+      "line2": "Colonia Renacimiento, Alcaldía Cuauhtémoc, Ciudad de México, C.P. 06500"
     },
     "navigation": {
-      "title": "Navegación",
-      "home": "Home",
-      "plans": "Planes",
+      "title": "Secciones",
+      "home": "Inicio",
+      "plans": "Servicios",
       "contact": "Contacto"
     },
     "legal": {
-      "title": "Legal",
-      "privacy": "Aviso de Privacidad",
-      "terms": "Términos y Condiciones",
-      "refunds": "Política de Reembolsos"
+      "title": "Sección Legal",
+      "privacy": "Aviso de Privacidad Legal",
+      "terms": "Condiciones del Servicio",
+      "refunds": "Pautas de Devolución"
     },
-    "paymentMethods": "Métodos de pago",
-    "copyright": "© 2026 Click Ential. Todos los derechos reservados."
+    "paymentMethods": "Opciones de pago aceptadas",
+    "copyright": "© 2026 Click Ential. Reservados todos los derechos corporativos."
   }
 }
