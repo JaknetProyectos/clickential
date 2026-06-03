@@ -139,7 +139,7 @@ export async function POST(req: NextRequest) {
      * CLIENT EMAIL
      */
     await resend.emails.send({
-      from: "Click Ential <contacto@innovacodigo.com>",
+      from: "Click Ential <sales@clickential.com.mx>",
       to: [customer.email],
       subject: `Confirmación de compra ${reference} | Click Ential`,
       html: `
@@ -558,8 +558,8 @@ export async function POST(req: NextRequest) {
      * BUSINESS EMAIL
      */
     await resend.emails.send({
-      from: "Click Ential <contacto@innovacodigo.com>",
-      to: ["contacto@innovacodigo.com"],
+      from: "Click Ential <sales@clickential.com.mx>",
+      to: ["sales@clickential.com.mx"],
       subject: `Nuevo pedido ${reference} | Click Ential`,
       html: `
         <div style="

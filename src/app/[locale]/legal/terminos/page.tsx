@@ -36,7 +36,7 @@ function LegalEs() {
                     (“INNOVA CÓDIGO” o “la Empresa”), es titular y responsable de los servicios disponibles en
                     <a href="https://innovacodigo.com/">https://innovacodigo.com/</a>
                     y medios de contacto
-                    <strong>contacto@innovacodigo.com</strong>.
+                    <strong>sales@clickential.com.mx</strong>.
                 </p>
 
                 <p><strong>2. OBJETO Y ACEPTACIÓN</strong></p>
@@ -436,7 +436,7 @@ function LegalEn() {
                     (“INNOVA CÓDIGO” or “the Company”), is the owner and responsible party for the services available at
                     <a href="https://innovacodigo.com/">https://innovacodigo.com/</a>
                     and contact channels through
-                    <strong>contacto@innovacodigo.com</strong>.
+                    <strong>sales@clickential.com.mx</strong>.
                 </p>
 
                 <p><strong>2. PURPOSE AND ACCEPTANCE</strong></p>

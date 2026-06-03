@@ -47,7 +47,7 @@ function LegalEs() {
 
                 <p>
                     Correo de contacto:
-                    <strong>contacto@innovacodigo.com</strong>
+                    <strong>sales@clickential.com.mx</strong>
                 </p>
 
                 <p><strong>2. DATOS PERSONALES QUE RECABAMOS</strong></p>
@@ -146,7 +146,7 @@ function LegalEs() {
                 <p>
                     El Usuario podrá <strong>negarse o revocar</strong> su consentimiento
                     respecto de las finalidades secundarias enviando un correo a
-                    <strong>contacto@innovacodigo.com</strong>.
+                    <strong>sales@clickential.com.mx</strong>.
                 </p>
 
                 <p><strong>4. TRANSFERENCIA DE DATOS PERSONALES</strong></p>
@@ -254,7 +254,7 @@ function LegalEs() {
 
                 <p>
                     Para ejercerlos, deberá enviar un correo a:
-                    <strong>contacto@innovacodigo.com</strong>
+                    <strong>sales@clickential.com.mx</strong>
                 </p>
 
                 <p>Incluyendo:</p>
@@ -363,7 +363,7 @@ function LegalEn() {
 
                 <p>
                     Contact email:
-                    <strong>contacto@innovacodigo.com</strong>
+                    <strong>sales@clickential.com.mx</strong>
                 </p>
 
                 <p><strong>2. PERSONAL DATA WE COLLECT</strong></p>
@@ -462,7 +462,7 @@ function LegalEn() {
                 <p>
                     The User may <strong>deny or revoke</strong> consent
                     regarding the secondary purposes by sending an email to
-                    <strong>contacto@innovacodigo.com</strong>.
+                    <strong>sales@clickential.com.mx</strong>.
                 </p>
 
                 <p><strong>4. TRANSFER OF PERSONAL DATA</strong></p>
@@ -571,7 +571,7 @@ function LegalEn() {
 
                 <p>
                     To exercise these rights, the User must send an email to:
-                    <strong>contacto@innovacodigo.com</strong>
+                    <strong>sales@clickential.com.mx</strong>
                 </p>
 
                 <p>Including:</p>

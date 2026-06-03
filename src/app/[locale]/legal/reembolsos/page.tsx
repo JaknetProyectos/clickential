@@ -44,7 +44,7 @@ function LegalEs() {
 
                 <p>
                     Las solicitudes de cancelación deberán enviarse por escrito al correo:
-                    <strong>contacto@innovacodigo.com</strong>
+                    <strong>sales@clickential.com.mx</strong>
                 </p>
 
                 <p>La solicitud deberá incluir:</p>
@@ -189,8 +189,8 @@ function LegalEs() {
 
                 <ul>
                     <li>
-                        <a href="mailto:contacto@innovacodigo.com" title="mailto:contacto@innovacodigo.com">
-                            <strong>contacto@innovacodigo.com</strong>
+                        <a href="mailto:sales@clickential.com.mx" title="mailto:sales@clickential.com.mx">
+                            <strong>sales@clickential.com.mx</strong>
                         </a>
                     </li>
                     <li><strong>innovacodigo.com</strong></li>
@@ -240,7 +240,7 @@ function LegalEn() {
 
                 <p>
                     Cancellation requests must be submitted in writing to:
-                    <strong>contacto@innovacodigo.com</strong>
+                    <strong>sales@clickential.com.mx</strong>
                 </p>
 
                 <p>The request must include:</p>
@@ -385,8 +385,8 @@ function LegalEn() {
 
                 <ul>
                     <li>
-                        <a href="mailto:contacto@innovacodigo.com" title="mailto:contacto@innovacodigo.com">
-                            <strong>contacto@innovacodigo.com</strong>
+                        <a href="mailto:sales@clickential.com.mx" title="mailto:sales@clickential.com.mx">
+                            <strong>sales@clickential.com.mx</strong>
                         </a>
                     </li>
                     <li><strong>innovacodigo.com</strong></li>

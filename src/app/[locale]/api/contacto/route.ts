@@ -3,7 +3,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const LOGO_URL = "https://innovacodigo.com/logo.png";
+const LOGO_URL = "https://clickential.com.mx/logo.png";
 
 export async function POST(req: Request) {
   try {
@@ -35,8 +35,8 @@ export async function POST(req: Request) {
      * EMAIL NEGOCIO
      */
     await resend.emails.send({
-      from: "Click Ential <contacto@innovacodigo.com>",
-      to: ["contacto@innovacodigo.com"],
+      from: "Click Ential <sales@clickential.com.mx>",
+      to: ["sales@clickential.com.mx"],
       replyTo: email,
       subject: `Nuevo contacto: ${safeAsunto}`,
       html: `
@@ -330,7 +330,7 @@ export async function POST(req: Request) {
      * EMAIL CLIENTE
      */
     await resend.emails.send({
-      from: "Click Ential <contacto@innovacodigo.com>",
+      from: "Click Ential <sales@clickential.com.mx>",
       to: [email],
       subject: "Recibimos tu mensaje | Click Ential",
       html: `
@@ -605,7 +605,7 @@ export async function POST(req: Request) {
                   font-size:12px;
                   line-height:1.8;
                 ">
-                  contacto@innovacodigo.com
+                  sales@clickential.com.mx
                 </p>
               </div>
             </div>
