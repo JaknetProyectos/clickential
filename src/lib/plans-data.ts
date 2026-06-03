@@ -7,12 +7,12 @@ export interface Plan {
   supportDuration?: string;
 }
 
-export const plansSpanish : Plan[] = [
+export const plansSpanish: Plan[] = [
   {
     id: "pinnacle",
     name: "Pinnacle",
     price: 82620,
-    image: "https://ext.same-assets.com/608674375/472844883.jpeg",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de sistemas complejos: Integración completa con sistemas heredados y soluciones a medida.",
       "Desarrollo de aplicaciones móviles y web: Con diseño UX/UI de alta fidelidad y funcionalidades avanzadas.",
@@ -25,7 +25,7 @@ export const plansSpanish : Plan[] = [
     id: "transform",
     name: "Transform",
     price: 68250,
-    image: "https://ext.same-assets.com/608674375/2602680073.jpeg",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de una aplicación empresarial personalizada: Con integración de bases de datos y seguridad avanzada.",
       "Desarrollo de una página web: Hasta 30 secciones con diseño UX/UI de alta gama.",
@@ -38,7 +38,7 @@ export const plansSpanish : Plan[] = [
     id: "innovate",
     name: "Innovate",
     price: 55000,
-    image: "https://ext.same-assets.com/608674375/3841572836.jpeg",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de software a medida: Con integración de APIs y características personalizadas.",
       "Desarrollo de aplicaciones móviles: Para Android e iOS con funcionalidades avanzadas.",
@@ -51,7 +51,7 @@ export const plansSpanish : Plan[] = [
     id: "advance",
     name: "Advance",
     price: 48500,
-    image: "https://ext.same-assets.com/608674375/924027943.jpeg",
+    image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de una tienda en línea: Con hasta 50 productos, integración de pasarela de pago y funciones avanzadas de e-commerce.",
       "Desarrollo de aplicación móvil: Funciones avanzadas con diseño UX/UI mejorado.",
@@ -64,7 +64,7 @@ export const plansSpanish : Plan[] = [
     id: "optimize",
     name: "Optimize",
     price: 42000,
-    image: "https://ext.same-assets.com/608674375/2555595820.jpeg",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=1251&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     features: [
       "Desarrollo de página web: Hasta 15 páginas con diseño gráfico personalizado y funciones interactivas.",
       "Desarrollo de aplicación móvil: Con integración de funcionalidades adicionales como notificaciones push.",
@@ -77,7 +77,7 @@ export const plansSpanish : Plan[] = [
     id: "accelerate",
     name: "Accelerate",
     price: 36800,
-    image: "https://ext.same-assets.com/608674375/1238972269.jpeg",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de una página web: Hasta 10 páginas con diseño responsivo y optimización para dispositivos móviles.",
       "Integración de redes sociales: Avanzada con botones de compartir, feeds en vivo y opciones de interacción.",
@@ -90,7 +90,7 @@ export const plansSpanish : Plan[] = [
     id: "empower",
     name: "Empower",
     price: 26245,
-    image: "https://ext.same-assets.com/608674375/4124700561.jpeg",
+    image: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo integral de sistemas complejos",
       "Integración con sistemas heredados",
@@ -104,7 +104,7 @@ export const plansSpanish : Plan[] = [
     id: "expand",
     name: "Expand",
     price: 20000,
-    image: "https://ext.same-assets.com/608674375/3088857897.jpeg",
+    image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de software a medida",
       "Integración de APIs",
@@ -117,7 +117,7 @@ export const plansSpanish : Plan[] = [
     id: "elevate",
     name: "Elevate",
     price: 15750,
-    image: "https://ext.same-assets.com/608674375/4093096630.jpeg",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de una aplicación empresarial personalizada",
       "Integración de bases de datos",
@@ -130,7 +130,7 @@ export const plansSpanish : Plan[] = [
     id: "boost-2",
     name: "Boost 2.0",
     price: 12500,
-    image: "https://ext.same-assets.com/608674375/2820496772.jpeg",
+    image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de una tienda en línea (e-commerce)",
       "Integración de pasarela de pago",
@@ -143,7 +143,7 @@ export const plansSpanish : Plan[] = [
     id: "assist",
     name: "Assist",
     price: 8750,
-    image: "https://ext.same-assets.com/608674375/1908606859.jpeg",
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de aplicaciones móviles (Android e iOS)",
       "Diseño y desarrollo web avanzado",
@@ -156,7 +156,7 @@ export const plansSpanish : Plan[] = [
     id: "nexa",
     name: "Nexa",
     price: 7154,
-    image: "https://ext.same-assets.com/608674375/747611334.jpeg",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de una web con hasta 7 páginas",
       "Diseño gráfico básico",
@@ -169,7 +169,7 @@ export const plansSpanish : Plan[] = [
     id: "create",
     name: "Create",
     price: 5500,
-    image: "https://ext.same-assets.com/608674375/832932170.jpeg",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de una web con hasta 5 páginas",
       "Diseño gráfico básico",
@@ -182,7 +182,7 @@ export const plansSpanish : Plan[] = [
     id: "development",
     name: "Development",
     price: 3500,
-    image: "https://ext.same-assets.com/608674375/3741705283.jpeg",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de una aplicación móvil sencilla",
       "Diseño y desarrollo web básico",
@@ -194,7 +194,7 @@ export const plansSpanish : Plan[] = [
     id: "growth",
     name: "Growth",
     price: 1360,
-    image: "https://ext.same-assets.com/608674375/3606627329.jpeg",
+    image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Desarrollo de una página web simple (HTML, CSS)",
       "Diseño responsivo",
@@ -206,7 +206,7 @@ export const plansSpanish : Plan[] = [
     id: "boost",
     name: "Boost",
     price: 680,
-    image: "https://ext.same-assets.com/608674375/3606627329.jpeg",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Soporte técnico limitado por 2 semanas, solo vía correo electrónico.",
       "1 revisión menor del diseño que ya exista.",
@@ -216,7 +216,7 @@ export const plansSpanish : Plan[] = [
     id: "ignite",
     name: "Ignite",
     price: 344,
-    image: "https://ext.same-assets.com/608674375/822494986.jpeg",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Soporte técnico limitado por 1 semana solo vía correo electrónico.",
     ],
@@ -225,7 +225,7 @@ export const plansSpanish : Plan[] = [
     id: "launch",
     name: "Launch",
     price: 205,
-    image: "https://ext.same-assets.com/608674375/3804215284.jpeg",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Soporte técnico limitado por 5 días solo vía correo electrónico.",
     ],
@@ -234,20 +234,19 @@ export const plansSpanish : Plan[] = [
     id: "spark",
     name: "Spark",
     price: 157,
-    image: "https://ext.same-assets.com/608674375/665403416.jpeg",
+    image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Soporte técnico limitado por 3 días solo vía correo electrónico.",
     ],
   },
 ];
 
-
 export const plansEnglish: Plan[] = [
   {
     id: "pinnacle",
     name: "Pinnacle",
     price: 82620,
-    image: "https://ext.same-assets.com/608674375/472844883.jpeg",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Complex systems development: Full integration with legacy systems and custom solutions.",
       "Mobile and web application development: With high-fidelity UX/UI design and advanced functionality.",
@@ -260,7 +259,7 @@ export const plansEnglish: Plan[] = [
     id: "transform",
     name: "Transform",
     price: 68250,
-    image: "https://ext.same-assets.com/608674375/2602680073.jpeg",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Custom business application development: With database integration and advanced security.",
       "Website development: Up to 30 sections with high-end UX/UI design.",
@@ -273,7 +272,7 @@ export const plansEnglish: Plan[] = [
     id: "innovate",
     name: "Innovate",
     price: 55000,
-    image: "https://ext.same-assets.com/608674375/3841572836.jpeg",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Custom software development: With API integration and custom features.",
       "Mobile app development: For Android and iOS with advanced functionality.",
@@ -286,7 +285,7 @@ export const plansEnglish: Plan[] = [
     id: "advance",
     name: "Advance",
     price: 48500,
-    image: "https://ext.same-assets.com/608674375/924027943.jpeg",
+    image: "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Online store development: With up to 50 products, payment gateway integration, and advanced e-commerce features.",
       "Mobile app development: Advanced features with improved UX/UI design.",
@@ -299,7 +298,7 @@ export const plansEnglish: Plan[] = [
     id: "optimize",
     name: "Optimize",
     price: 42000,
-    image: "https://ext.same-assets.com/608674375/2555595820.jpeg",
+    image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=1251&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     features: [
       "Website development: Up to 15 pages with custom graphic design and interactive features.",
       "Mobile app development: With integration of additional features such as push notifications.",
@@ -312,7 +311,7 @@ export const plansEnglish: Plan[] = [
     id: "accelerate",
     name: "Accelerate",
     price: 36800,
-    image: "https://ext.same-assets.com/608674375/1238972269.jpeg",
+    image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Website development: Up to 10 pages with responsive design and mobile optimization.",
       "Social media integration: Advanced with share buttons, live feeds, and interaction options.",
@@ -325,7 +324,7 @@ export const plansEnglish: Plan[] = [
     id: "empower",
     name: "Empower",
     price: 26245,
-    image: "https://ext.same-assets.com/608674375/4124700561.jpeg",
+    image: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Comprehensive development of complex systems",
       "Integration with legacy systems",
@@ -339,7 +338,7 @@ export const plansEnglish: Plan[] = [
     id: "expand",
     name: "Expand",
     price: 20000,
-    image: "https://ext.same-assets.com/608674375/3088857897.jpeg",
+    image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Custom software development",
       "API integration",
@@ -352,7 +351,7 @@ export const plansEnglish: Plan[] = [
     id: "elevate",
     name: "Elevate",
     price: 15750,
-    image: "https://ext.same-assets.com/608674375/4093096630.jpeg",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Custom business application development",
       "Database integration",
@@ -365,7 +364,7 @@ export const plansEnglish: Plan[] = [
     id: "boost-2",
     name: "Boost 2.0",
     price: 12500,
-    image: "https://ext.same-assets.com/608674375/2820496772.jpeg",
+    image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Online store development (e-commerce)",
       "Payment gateway integration",
@@ -378,7 +377,7 @@ export const plansEnglish: Plan[] = [
     id: "assist",
     name: "Assist",
     price: 8750,
-    image: "https://ext.same-assets.com/608674375/1908606859.jpeg",
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Mobile app development (Android and iOS)",
       "Advanced web design and development",
@@ -391,7 +390,7 @@ export const plansEnglish: Plan[] = [
     id: "nexa",
     name: "Nexa",
     price: 7154,
-    image: "https://ext.same-assets.com/608674375/747611334.jpeg",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Website development with up to 7 pages",
       "Basic graphic design",
@@ -404,7 +403,7 @@ export const plansEnglish: Plan[] = [
     id: "create",
     name: "Create",
     price: 5500,
-    image: "https://ext.same-assets.com/608674375/832932170.jpeg",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Website development with up to 5 pages",
       "Basic graphic design",
@@ -417,7 +416,7 @@ export const plansEnglish: Plan[] = [
     id: "development",
     name: "Development",
     price: 3500,
-    image: "https://ext.same-assets.com/608674375/3741705283.jpeg",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Simple mobile application development",
       "Basic web design and development",
@@ -429,7 +428,7 @@ export const plansEnglish: Plan[] = [
     id: "growth",
     name: "Growth",
     price: 1360,
-    image: "https://ext.same-assets.com/608674375/3606627329.jpeg",
+    image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Simple website development (HTML, CSS)",
       "Responsive design",
@@ -441,7 +440,7 @@ export const plansEnglish: Plan[] = [
     id: "boost",
     name: "Boost",
     price: 680,
-    image: "https://ext.same-assets.com/608674375/3606627329.jpeg",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Limited technical support for 2 weeks, email only.",
       "1 minor revision of an existing design.",
@@ -451,7 +450,7 @@ export const plansEnglish: Plan[] = [
     id: "ignite",
     name: "Ignite",
     price: 344,
-    image: "https://ext.same-assets.com/608674375/822494986.jpeg",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Limited technical support for 1 week, email only.",
     ],
@@ -460,7 +459,7 @@ export const plansEnglish: Plan[] = [
     id: "launch",
     name: "Launch",
     price: 205,
-    image: "https://ext.same-assets.com/608674375/3804215284.jpeg",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Limited technical support for 5 days, email only.",
     ],
@@ -469,7 +468,7 @@ export const plansEnglish: Plan[] = [
     id: "spark",
     name: "Spark",
     price: 157,
-    image: "https://ext.same-assets.com/608674375/665403416.jpeg",
+    image: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=1200&q=80",
     features: [
       "Limited technical support for 3 days, email only.",
     ],
