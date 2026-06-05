@@ -96,21 +96,21 @@ export default function Footer() {
 
               <div className="flex flex-col gap-4">
                 <Link
-                  href="/aviso-de-privacidad"
+                  href="/legal/privacidad"
                   className="text-sm text-zinc-400 transition-colors hover:text-white"
                 >
                   {t("legal.privacy")}
                 </Link>
 
                 <Link
-                  href="/terminos-y-condiciones"
+                  href="/legal/terminos"
                   className="text-sm text-zinc-400 transition-colors hover:text-white"
                 >
                   {t("legal.terms")}
                 </Link>
 
                 <Link
-                  href="/politica-de-reembolsos"
+                  href="/legal/reembolsos"
                   className="text-sm text-zinc-400 transition-colors hover:text-white"
                 >
                   {t("legal.refunds")}
